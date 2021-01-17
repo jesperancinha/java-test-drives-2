@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jesperancinha.jtd2</groupId>
+    <artifactId>java-test-drives-2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>java-16-test-drives</module>
+        <module>java-17-test-drives</module>
+        <module>JEE8-test-drives</module>
+        <module>JEE9-test-drives</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <packaging>pom</packaging>
+</project>
